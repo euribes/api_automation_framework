@@ -1,0 +1,6 @@
+node_modules
+.DS_Store
+cypress/allure-report/
+cypress/screenshots/
+cypress/videos/
+.env
