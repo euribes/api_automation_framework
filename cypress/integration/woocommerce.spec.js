@@ -44,8 +44,8 @@ describe('Products API', () => {
         username: Cypress.env('USERNAME'),
         password: Cypress.env('PASSWORD')
       }
-    })
-    .then((response) => {
+    }).then((response) => {
       expect(response.status === 200)
     })
+  })
 })
